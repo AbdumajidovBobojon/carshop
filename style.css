@@ -6,7 +6,11 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.container .section-1 {
+body {
+  background-color: #080808;
+}
+
+body .container .section-1 {
   width: 100%;
   height: 100vh;
   background-image: url(./rasimlar/rrrrr.svg);
@@ -14,7 +18,7 @@
   background-size: cover;
 }
 
-.container .section-1 .header {
+body .container .section-1 .header {
   padding: 20px 110px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -27,7 +31,7 @@
           justify-content: space-between;
 }
 
-.container .section-1 .header .header-type {
+body .container .section-1 .header .header-type {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -37,7 +41,7 @@
   gap: 60px;
 }
 
-.container .section-1 .header .header-type p {
+body .container .section-1 .header .header-type p {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -45,12 +49,12 @@
   color: #676767;
 }
 
-.container .section-1 .header .header-type p:hover {
+body .container .section-1 .header .header-type p:hover {
   color: #FFFFFF;
   cursor: pointer;
 }
 
-.container .section-1 .aside h1 {
+body .container .section-1 .aside h1 {
   font-style: normal;
   font-weight: 800;
   font-size: 60px;
@@ -59,7 +63,7 @@
   color: #FFFFFF;
 }
 
-.container .section-1 .aside h1 span {
+body .container .section-1 .aside h1 span {
   width: 436.81px;
   height: 128.86px;
   left: 732.62px;
@@ -67,7 +71,7 @@
   background: #FF0000;
 }
 
-.container .section-1 .aside p {
+body .container .section-1 .aside p {
   margin-top: 20px;
   font-style: normal;
   font-weight: normal;
@@ -76,7 +80,7 @@
   color: #C2C2C2;
 }
 
-.container .section-1 .aside .menu {
+body .container .section-1 .aside .menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -86,7 +90,7 @@
   padding: 10px 110px;
 }
 
-.container .section-1 .aside .menu p {
+body .container .section-1 .aside .menu p {
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -95,26 +99,21 @@
   color: #676767;
 }
 
-.container .section-1 .aside .menu p:hover {
+body .container .section-1 .aside .menu p:hover {
   cursor: pointer;
   color: #FFFFFF;
 }
 
-.container .section-1 .aside .menu .big-img img {
+body .container .section-1 .aside .menu .big-img img {
   width: 800px;
   height: 370px;
 }
 
-.container .section-2 {
+body .container .section-2 {
   padding: 20px 120px;
-  width: 100%;
-  height: 100vh;
-  background-color: #080808;
-  mix-blend-mode: overlay;
-  opacity: 0.9;
 }
 
-.container .section-2 .speed {
+body .container .section-2 .speed {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -123,7 +122,7 @@
   display: flex;
 }
 
-.container .section-2 .speed p {
+body .container .section-2 .speed p {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -132,27 +131,25 @@
   position: relative;
 }
 
-.container .section-2 .speed img {
+body .container .section-2 .speed img {
   position: relative;
 }
 
-.container .section-2 .speed .speed-degre {
-  padding: 45px 70px;
-  gap: 90px;
+body .container .section-2 .speed .speed-degre {
+  padding: 45px 22px;
+  gap: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 100px;
-  width: 614.03px;
-  height: 145.91px;
+  margin-left: 250px;
+  width: 445px;
+  height: 145px;
   background: -webkit-gradient(linear, left top, right top, color-stop(-21.07%, rgba(255, 255, 255, 0.16)), color-stop(120.5%, rgba(255, 255, 255, 0.02)));
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.16) -21.07%, rgba(255, 255, 255, 0.02) 120.5%);
-  -webkit-backdrop-filter: blur(23px);
-          backdrop-filter: blur(23px);
   border-radius: 70px 0 70px 0px;
 }
 
-.container .section-2 .speed .speed-degre p {
+body .container .section-2 .speed .speed-degre p {
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -160,7 +157,7 @@
   color: #C2C2C2;
 }
 
-.container .section-2 .speed .speed-degre h5 {
+body .container .section-2 .speed .speed-degre h5 {
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -168,9 +165,176 @@
   color: #FFFFFF;
 }
 
-.container .section-2 .speed .cartrail {
+body .container .section-2 .speed .cartrail {
   position: absolute;
   left: 0;
   top: 500px;
+}
+
+body .container .section-2 .car-rusum {
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container .section-2 .car-rusum .car-type {
+  margin-top: 150px;
+}
+
+body .container .section-2 .car-rusum .car-type p {
+  position: relative;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 39px;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+
+body .container .section-2 .car-rusum .car-type button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  width: 200px;
+  height: 60px;
+  background-color: #FF0000;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 30px;
+  color: #FFFFFF;
+  position: relative;
+  border: none;
+}
+
+body .container .section-2 .car-rusum .car-types {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container .section-2 .car-rusum .car-types .box-2 {
+  margin: 20px;
+  width: 244.94px;
+  height: 237.27px;
+  left: 717.76px;
+  top: 1239.27px;
+  background: linear-gradient(135.78deg, #FF4E63 -8.21%, #B90712 114.35%);
+}
+
+body .container .section-2 .car-rusum .car-types .box-2 img {
+  padding: 59px 30px 10px 30px;
+}
+
+body .container .section-2 .car-rusum .car-types .box-2 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+body .container .section-2 .car-rusum .car-types .box-3 {
+  margin: 20px;
+  width: 244.94px;
+  height: 217.27px;
+  left: 717.76px;
+  top: 1239.27px;
+  background-color: #080808;
+  border: 1px solid gray;
+}
+
+body .container .section-2 .car-rusum .car-types .box-3 img {
+  padding: 49px 30px 10px 10px;
+}
+
+body .container .section-2 .car-rusum .car-types .box-3 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+body .container .section-2 .car-rusum .car-types .box-5 {
+  width: 244.94px;
+  height: 237.27px;
+  left: 717.76px;
+  top: 1239.27px;
+  background-color: #080808;
+  border: 1px solid gray;
+}
+
+body .container .section-2 .car-rusum .car-types .box-5 img {
+  padding: 59px 50px 10px 50px;
+}
+
+body .container .section-2 .car-rusum .car-types .box-5 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+body .container .section-2 .car-rusum .car-types .box-6 {
+  margin-top: 20px;
+  width: 244.94px;
+  height: 217.27px;
+  left: 717.76px;
+  top: 1239.27px;
+  background-color: #080808;
+  border: 1px solid gray;
+}
+
+body .container .section-2 .car-rusum .car-types .box-6 img {
+  padding: 49px 50px 10px 50px;
+}
+
+body .container .section-2 .car-rusum .car-types .box-6 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+body .container .section-3 .future .future-car img {
+  position: absolute;
+}
+
+body .container .section-3 .future .future-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container .section-3 .future .future-type h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 70px;
+  color: #FFFFFF;
+}
+
+body .container .section-3 .future .future-type p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #676767;
+}
+
+body .container .section-3 .future .future-type span {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #676767;
 }
 /*# sourceMappingURL=style.css.map */
