@@ -304,14 +304,13 @@ body .container .section-2 .car-rusum .car-types .box-6 p {
   color: #FFFFFF;
 }
 
-body .container .section-3 .future .future-car img {
+body .container .section-3 .future .future-car :nth-child(1) img {
   position: absolute;
 }
 
 body .container .section-3 .future .future-type {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  margin-left: 200px;
+  position: relative;
 }
 
 body .container .section-3 .future .future-type h2 {
