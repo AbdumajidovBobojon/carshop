@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    .section-1 {
+        width: 100%;
+        height: 100vh;
+        background-image: url(./rasimlar/rrrrr.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .header {
+            padding: 20px 110px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .header-type {
+                display: flex;
+                align-items: center;
+                gap: 60px;
+
+                p {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #676767;
+
+                    &:hover {
+                        color: #FFFFFF;
+                        cursor: pointer;
+                    }
+
+                }
+            }
+        }
+
+        .aside {
+            h1 {
+                font-style: normal;
+                font-weight: 800;
+                font-size: 60px;
+                line-height: 8 0px;
+                text-align: center;
+                color: #FFFFFF;
+
+                span {
+                    width: 436.81px;
+                    height: 128.86px;
+                    left: 732.62px;
+                    top: 159.97px;
+                    background: #FF0000;
+                }
+            }
+
+            p {
+                margin-top: 20px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+
+                text-align: center;
+                color: #C2C2C2;
+
+            }
+
+            .menu {
+                display: flex;
+                justify-content: space-between;
+                padding: 10px 110px;
+
+                p {
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 30px;
+                    text-align: center;
+                    color: #676767;
+
+                    &:hover {
+                        cursor: pointer;
+                        color: #FFFFFF;
+                    }
+                }
+
+                .big-img {
+                    img {
+                        width: 800px;
+                        height: 370px;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .section-2 {
+        padding: 20px 120px;
+        width: 100%;
+        height: 100vh;
+        background-color: #080808;
+        mix-blend-mode: overlay;
+        opacity: 0.9;
+
+        .speed {
+            align-items: center;
+            display: flex;
+
+            p {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 30px;
+                color: #FFFFFF;
+                position: relative;
+            }
+
+            img {
+                position: relative;
+            }
+
+            .speed-degre {
+                padding: 45px 70px;
+                gap: 90px;
+                display: flex;
+                margin-left: 100px;
+                width: 614.03px;
+                height: 145.91px;
+                background: linear-gradient(90deg, rgba(255, 255, 255, 0.16) -21.07%, rgba(255, 255, 255, 0.02) 120.5%);
+                backdrop-filter: blur(23px);
+                border-radius: 70px 0 70px 0px;
+
+                p {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 13px;
+                    line-height: 20px;
+                    color: #C2C2C2;
+
+
+                }
+
+                h5 {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 32px;
+                    color: #FFFFFF;
+
+                }
+
+            }
+
+            .cartrail {
+                position: absolute;
+                left: 0;
+                top: 500px;
+            }
+        }
+    }
+}
