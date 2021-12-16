@@ -302,40 +302,184 @@ body {
         .section-3 {
             .future {
                 .future-car {
-                    :nth-child(1) {
-                        img {
-                            position: absolute;
-                        }
+                    display: flex;
+
+                    img {
+                        top: 1500px;
+                        position: absolute;
+                    }
+
+                    :nth-child(2) {
+                        top: 1640px;
                     }
                 }
 
                 .future-type {
+                    display: flex;
                     margin-left: 200px;
-                    position: relative;
+                    margin-top: 50px;
 
                     h2 {
+                        position: relative;
+                        margin-left: 450px;
                         font-style: normal;
-                        font-weight: normal;
-                        font-size: 45px;
+                        font-weight: 700;
+                        font-size: 35px;
                         line-height: 70px;
                         color: #FFFFFF;
                     }
 
                     p {
+                        position: relative;
+                        margin-top: 30px;
+                        margin-left: 800px;
                         font-style: normal;
                         font-weight: 300;
                         font-size: 20px;
                         line-height: 30px;
                         color: #676767;
+
+                        &:hover {
+                            cursor: pointer;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 25px;
+                            color: #FFFFFF;
+                        }
                     }
 
                     span {
+                        display: block;
+                        position: relative;
+                        margin-top: 30px;
                         font-style: normal;
-                        font-weight: 300;
-                        font-size: 20px;
-                        line-height: 30px;
-                        color: #676767;
+                        font-weight: normal;
+                        font-size: 25px;
+                        line-height: 32px;
+                        margin-left: 800px;
+                        color: #FFFFFF;
                     }
+                }
+            }
+        }
+
+        .section-4 {
+            .car-types {
+                position: absolute;
+                top: 1900px;
+                right: 0;
+            }
+
+            .customrs {
+                h2 {
+                    margin-top: 300px;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 55px;
+                    line-height: 70px;
+                    text-align: center;
+                    color: #FFFFFF;
+
+                }
+            }
+
+            .customrs-row {
+                gap: 90px;
+                display: flex;
+                padding: 100px 110px;
+
+                .customrs-row-1 {
+                    img {
+                        width: 200px;
+                        height: 200px;
+                        background-color: blueviolet;
+                    }
+
+                    p {
+                        margin-top: 30px;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 28px;
+                        color: #C2C2C2;
+                    }
+
+                    button {
+                        margin-bottom: 30px;
+                        margin-top: 20px;
+                        width: 200px;
+                        height: 60px;
+                        background-color: #FF0000;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 19px;
+                        line-height: 30px;
+                        color: #FFFFFF;
+                        position: relative;
+                        border: none;
+                    }
+                }
+
+                .customrs-row-2 {
+                    img {
+                        margin-right: 90px;
+                        width: 300px;
+                        height: 500px;
+                    }
+                }
+
+                .customrs-row-3 {
+                    h4 {
+                        margin-top: 30px;
+                        position: relative;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 50px;
+                        line-height: 70px;
+                        color: #FFC700;
+                    }
+
+                    p {
+                        position: relative;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 19px;
+                        line-height: 30px;
+                        color: #FFFFFF;
+                    }
+
+                    h3 {
+                        margin-top: 30px;
+                        position: relative;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 50px;
+                        line-height: 70px;
+                        color: #FF00E5;
+                    }
+                }
+            }
+
+            .animation {
+                img {
+                    position: absolute;
+                    left: 0;
+                    top: 2700px;
+                }
+            }
+        }
+
+        .section-5 {
+            .generic {
+                margin-top: 200px;
+                margin-bottom: 100px;
+
+                img {
+                    position: absolute;
+                    left: 0;
+                }
+                h4 {
+                    position: relative;
                 }
             }
         }
